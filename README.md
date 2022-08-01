@@ -2,6 +2,8 @@
 
 ## Linux CLI, and HTTP
 
+[Task Linux Cli](./task_linux_cli/)
 
+## Git Collaboration
 
-[task(1)](./task_linux_cli/)
+[Task Git Collaboration](./task_git_collaboration/)
