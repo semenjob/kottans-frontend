@@ -12,3 +12,8 @@
 
 [Task HTML CSS Intro](./task_html_css_intro/)
 
+## Responsive Web Design
+
+[Responsive Web Design](./task_html_css_intro/)
+
+Игры очень прикольные)
