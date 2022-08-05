@@ -36,7 +36,6 @@ already worked with git but it was an interaction between just 2 people and a ma
 
 [Task HTML CSS Intro](./task_html_css_intro/)
 
-<<<<<<< HEAD
 I have already taken a course from Ivan Petrychinka
 but there were no such nuances with dropdavn
 
