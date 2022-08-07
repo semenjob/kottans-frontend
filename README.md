@@ -44,3 +44,9 @@ but there were no such nuances with dropdavn
 [Responsive Web Design](./task_html_css_intro/)
 
 very nice game =)
+
+## JS Basics
+
+[Task JS Basics](./task_js_basic/)
+
+Already taught JS but it is very bad for me every time I start to understand more and more, but mathematical problems are still very difficult
