@@ -50,3 +50,10 @@ very nice game =)
 [Task JS Basics](./task_js_basic/)
 
 Already taught JS but it is very bad for me every time I start to understand more and more, but mathematical problems are still very difficult
+
+## DOM
+
+[Task JS DOM](./task_js_dom/)]
+
+I find such incredibly difficult JS tasks for logic and mathematics, but since I have already encountered a similar implementation of the DOM in the project, it was easier for me to make a project than tasks
+js my weak side =(

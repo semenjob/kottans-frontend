@@ -2,47 +2,65 @@
   padding: 0;
   margin: 0;
 }
-img {
+
+.popup__icon {
   display: block;
   margin: 0 auto;
   width: 30px;
-  height: 30px;
-  margin-bottom: 15px;
+  height: 40%;
+  margin: 10px auto 10px;
 }
-a {
+
+.popup__icon__head {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+.popup__list {
+  list-style: none;
+}
+
+.head__link {
   color: #000000;
   text-decoration: none;
   display: block;
   padding: 0 15px;
   line-height: 30px;
+  text-align: center;
 }
-li {
+
+.header__list,
+.popup__item {
   display: inline-block;
 }
-span {
+
+.icon_text {
   margin: 5px auto;
   display: block;
   text-align: center;
 }
-/* / */
+
 .popup__item {
-  width: 70px;
-  height: 80px;
+  width: 50%;
+  height: 70px;
   border-radius: 5px;
-  padding: 5px;
-  margin: 5px;
+  padding: 5px 0;
 }
-.popup__item:focus {
-  background-color: #b34747;
-}
+
 .popup__item:hover {
-  background-color: #5251bd;
+  cursor: pointer;
+  background-color: #dedef5;
 }
-/* / */
-header {
+
+.popup__item:focus {
+  background-color: #ddc0c0;
+}
+
+.header {
   display: flex;
   justify-content: flex-end;
-  width: 500px;
+  width: 60%;
   margin: 0 auto;
   padding: 10px;
   border-radius: 8px;
@@ -66,12 +84,14 @@ header {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  display: block;
+  margin-left: 15px;
 }
 
-/* / */
 .more__popup__list {
   display: none;
 }
+
 .popup {
   display: none;
   position: absolute;
@@ -82,25 +102,34 @@ header {
   overflow: auto;
   border-radius: 5px;
   border: 2px solid #000000;
-  padding: 15px;
+  padding: 15px 5px;
 }
-/* / */
+
 .popup__checkbox:checked ~ .popup {
   display: block;
 }
+
 .popup__list,
 .more__popup__checkbox:checked ~ .more__popup__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-/* / */
+
+.more__popup__checkbox:checked ~ .label__disable {
+  display: none;
+}
+
+.head__link,
 .more {
   width: 100%;
 }
+
 .more__popup__checkbox:focus ~ .more__popup__checkbox__label {
   border: 2px solid #0748a3;
-  background-color: #0748a3;
+  background-color: #94aed3;
 }
+
 .more__popup__checkbox__label {
   width: 60px;
   padding: 15px;
