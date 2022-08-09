@@ -57,3 +57,7 @@ Already taught JS but it is very bad for me every time I start to understand mor
 
 I find such incredibly difficult JS tasks for logic and mathematics, but since I have already encountered a similar implementation of the DOM in the project, it was easier for me to make a project than tasks
 js my weak side =(
+
+## TINY
+
+worked with OOP
